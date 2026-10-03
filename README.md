@@ -3,6 +3,7 @@
 This project models the time-varying volatility of daily AEX index log-returns from January 2010 to March 2023. It tests whether negative shocks raise volatility more than positive shocks of the same size, which is known as the leverage effect.
 
 **Paper:** [`paper/aex_conditional_volatility.pdf`](paper/aex_conditional_volatility.pdf)
+
 **Authors:** Maxim Milde, Zahid Pashayev (Charles University, 2026)
 
 ## Approach
