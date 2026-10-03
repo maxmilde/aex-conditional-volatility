@@ -16,9 +16,9 @@ This project models the time-varying volatility of daily AEX index log-returns f
 
 ## Key findings
 
-- Volatility clustering and ARCH effects are strong. Persistence (α + β) is about 0.987.
+- Volatility clustering and ARCH effects are strong. Persistence (α + β) is about 0.987 in the GARCH(1,1) models and 0.984 in the GJR-GARCH model.
 - Returns are fat-tailed, with excess kurtosis of 6.8. Student-t errors (ν ≈ 7.3) beat normal errors on every information criterion.
-- The leverage effect is significant: γ = 0.110, robust t = 2.97. A negative shock moves next-day variance about 6 times as much as a positive shock of the same size (α + γ = 0.132 against α = 0.023).
+- The leverage effect is significant: γ = 0.110, robust t = 2.97. A negative shock moves next-day variance about 6 times as much as a positive shock of the same size (α + γ = 0.132 against α = 0.023; α alone is not robustly significant, t = 1.41).
 - GJR-GARCH(1,1)-t is the best-fitting model on all four criteria, and the likelihood-ratio test rejects the symmetric restriction (p < 0.001).
 
 ## Reproduce
